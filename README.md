@@ -113,3 +113,30 @@ This work is highly based on the following repos:
 1. [sourabhv/FlapPyBird] (https://github.com/sourabhv/FlapPyBird)
 2. [asrivat1/DeepLearningVideoGames](https://github.com/asrivat1/DeepLearningVideoGames)
 
+--
+# Flappy Bird
+In this example, you'll get to see a Deep Learning agent playing Flappy Bird! You have the option to train the agent yourself, but for now let's just start with the pre-trained network given by the author. Note that the following agent is able to play without being told any information about the structure of the game or its rules. It automatically discovers the rules of the game by finding out how it did on each iteration.
+
+We will be following this repository by Yenchen Lin.
+
+# Instructions
+1. Install miniconda or anaconda if you have not already. You can follow our tutorial for help.
+2. Create an environment for flappybird
+2.1 Mac/Linux: conda create --name=flappybird python=2.7
+2.2 Windows: conda create --name=flappybird python=3.5
+3. Enter your conda environment
+3.1 Mac/Linux: source activate flappybird
+3.2 Windows: activate flappybird
+4. Install opencv
+4.1 Mac/Linux: conda install opencv
+4.2 Windows: conda install -c menpo opencv3
+5. pip install pygame
+6. pip install tensorflow
+7. git clone https://github.com/yenchenlin/DeepLearningFlappyBird.git
+8. cd DeepLearningFlappyBird
+9. python deep_q_network.py
+
+If all went correctly, you should be seeing a Deep Learning based agent play Flappy Bird! The repository contains instructions for training your own agent if you're interested!
+
+
+
